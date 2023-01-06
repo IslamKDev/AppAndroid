@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "122306310820",
+    "project_id": "share-it-9ce74",
+    "storage_bucket": "share-it-9ce74.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:122306310820:android:922fa1eab4f2c7b943ac31",
+        "android_client_info": {
+          "package_name": "fr.univ_reims.informatique.islam.shareit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "122306310820-3isfd3f6f2kv1v2kem8c8q0jdlasasm7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCMKfA_fJzQhXZ73L0PAWy70sSUS8HNuaM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "122306310820-3isfd3f6f2kv1v2kem8c8q0jdlasasm7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

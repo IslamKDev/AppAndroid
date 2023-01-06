@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:id="@+id/home" android:icon="@drawable/ic_baseline_home_24" android:title="Accueil"/>
+    <item android:id="@+id/menuProfile" android:icon="@drawable/user" android:title="Profile"/>
+    <item android:id="@+id/menuPhotos" android:icon="@drawable/picture" android:title="@string/picture"/>
+    <item android:id="@+id/contact" android:icon="@drawable/user" android:title="Contact"/>
+    <item android:id="@+id/share" android:icon="@drawable/ic_baseline_share_24" android:title="partager"/>
+    <item android:id="@+id/menuOther" android:title="@string/other">
+        <menu>
+            <item android:id="@+id/menuSetting" android:icon="@drawable/setting" android:title="@string/setting"/>
+            <item android:id="@+id/menuContact_us" android:icon="@drawable/help" android:title="@string/contact_us"/>
+            <item android:id="@+id/menuAbout" android:icon="@drawable/about" android:title="@string/about"/>
+        </menu>
+    </item>
+    <item android:title="">
+        <menu>
+            <item android:id="@+id/deconnexion" android:icon="@drawable/deconnecter" android:title="deconnexion"/>
+        </menu>
+    </item>
+
+
+</menu>

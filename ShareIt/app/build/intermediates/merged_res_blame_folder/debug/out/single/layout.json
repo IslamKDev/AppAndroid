@@ -1,0 +1,74 @@
+[
+    {
+        "merged": "C:\\Users\\Islam\\.gradle\\daemon\\7.4\\fr.univ_reims.informatique.islam.shareit.app-mergeDebugResources-55:\\layout\\fragment_message.xml",
+        "source": "C:\\Users\\Islam\\.gradle\\daemon\\7.4\\fr.univ_reims.informatique.islam.shareit.app-main-58:\\layout\\fragment_message.xml"
+    },
+    {
+        "merged": "C:\\Users\\Islam\\.gradle\\daemon\\7.4\\fr.univ_reims.informatique.islam.shareit.app-mergeDebugResources-55:\\layout\\activity_home.xml",
+        "source": "C:\\Users\\Islam\\.gradle\\daemon\\7.4\\fr.univ_reims.informatique.islam.shareit.app-main-58:\\layout\\activity_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\Islam\\.gradle\\daemon\\7.4\\fr.univ_reims.informatique.islam.shareit.app-mergeDebugResources-55:\\layout\\fragment_media.xml",
+        "source": "C:\\Users\\Islam\\.gradle\\daemon\\7.4\\fr.univ_reims.informatique.islam.shareit.app-main-58:\\layout\\fragment_media.xml"
+    },
+    {
+        "merged": "C:\\Users\\Islam\\.gradle\\daemon\\7.4\\fr.univ_reims.informatique.islam.shareit.app-mergeDebugResources-55:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\Islam\\.gradle\\daemon\\7.4\\fr.univ_reims.informatique.islam.shareit.app-main-58:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Islam\\.gradle\\daemon\\7.4\\fr.univ_reims.informatique.islam.shareit.app-mergeDebugResources-55:\\layout\\fragment_photo.xml",
+        "source": "C:\\Users\\Islam\\.gradle\\daemon\\7.4\\fr.univ_reims.informatique.islam.shareit.app-main-58:\\layout\\fragment_photo.xml"
+    },
+    {
+        "merged": "C:\\Users\\Islam\\.gradle\\daemon\\7.4\\fr.univ_reims.informatique.islam.shareit.app-mergeDebugResources-55:\\layout\\fragment_stockage.xml",
+        "source": "C:\\Users\\Islam\\.gradle\\daemon\\7.4\\fr.univ_reims.informatique.islam.shareit.app-main-58:\\layout\\fragment_stockage.xml"
+    },
+    {
+        "merged": "C:\\Users\\Islam\\.gradle\\daemon\\7.4\\fr.univ_reims.informatique.islam.shareit.app-mergeDebugResources-55:\\layout\\fragment_contact.xml",
+        "source": "C:\\Users\\Islam\\.gradle\\daemon\\7.4\\fr.univ_reims.informatique.islam.shareit.app-main-58:\\layout\\fragment_contact.xml"
+    },
+    {
+        "merged": "C:\\Users\\Islam\\.gradle\\daemon\\7.4\\fr.univ_reims.informatique.islam.shareit.app-mergeDebugResources-55:\\layout\\activity_registration.xml",
+        "source": "C:\\Users\\Islam\\.gradle\\daemon\\7.4\\fr.univ_reims.informatique.islam.shareit.app-main-58:\\layout\\activity_registration.xml"
+    },
+    {
+        "merged": "C:\\Users\\Islam\\.gradle\\daemon\\7.4\\fr.univ_reims.informatique.islam.shareit.app-mergeDebugResources-55:\\layout\\fragment_profile.xml",
+        "source": "C:\\Users\\Islam\\.gradle\\daemon\\7.4\\fr.univ_reims.informatique.islam.shareit.app-main-58:\\layout\\fragment_profile.xml"
+    },
+    {
+        "merged": "fr.univ_reims.informatique.islam.shareit.app-mergeDebugResources-55:/layout/activity_contact.xml",
+        "source": "fr.univ_reims.informatique.islam.shareit.app-main-58:/layout/activity_contact.xml"
+    },
+    {
+        "merged": "C:\\Users\\Islam\\.gradle\\daemon\\7.4\\fr.univ_reims.informatique.islam.shareit.app-mergeDebugResources-55:\\layout\\activity_contact.xml",
+        "source": "C:\\Users\\Islam\\.gradle\\daemon\\7.4\\fr.univ_reims.informatique.islam.shareit.app-main-58:\\layout\\activity_contact.xml"
+    },
+    {
+        "merged": "C:\\Users\\Islam\\.gradle\\daemon\\7.4\\fr.univ_reims.informatique.islam.shareit.app-mergeDebugResources-55:\\layout\\fragment_nous_contacter.xml",
+        "source": "C:\\Users\\Islam\\.gradle\\daemon\\7.4\\fr.univ_reims.informatique.islam.shareit.app-main-58:\\layout\\fragment_nous_contacter.xml"
+    },
+    {
+        "merged": "C:\\Users\\Islam\\.gradle\\daemon\\7.4\\fr.univ_reims.informatique.islam.shareit.app-mergeDebugResources-55:\\layout\\activity_splash_screen.xml",
+        "source": "C:\\Users\\Islam\\.gradle\\daemon\\7.4\\fr.univ_reims.informatique.islam.shareit.app-main-58:\\layout\\activity_splash_screen.xml"
+    },
+    {
+        "merged": "C:\\Users\\Islam\\.gradle\\daemon\\7.4\\fr.univ_reims.informatique.islam.shareit.app-mergeDebugResources-55:\\layout\\layout_navigation_top.xml",
+        "source": "C:\\Users\\Islam\\.gradle\\daemon\\7.4\\fr.univ_reims.informatique.islam.shareit.app-main-58:\\layout\\layout_navigation_top.xml"
+    },
+    {
+        "merged": "C:\\Users\\Islam\\.gradle\\daemon\\7.4\\fr.univ_reims.informatique.islam.shareit.app-mergeDebugResources-55:\\layout\\activity_interface.xml",
+        "source": "C:\\Users\\Islam\\.gradle\\daemon\\7.4\\fr.univ_reims.informatique.islam.shareit.app-main-58:\\layout\\activity_interface.xml"
+    },
+    {
+        "merged": "C:\\Users\\Islam\\.gradle\\daemon\\7.4\\fr.univ_reims.informatique.islam.shareit.app-mergeDebugResources-55:\\layout\\activity_message.xml",
+        "source": "C:\\Users\\Islam\\.gradle\\daemon\\7.4\\fr.univ_reims.informatique.islam.shareit.app-main-58:\\layout\\activity_message.xml"
+    },
+    {
+        "merged": "C:\\Users\\Islam\\.gradle\\daemon\\7.4\\fr.univ_reims.informatique.islam.shareit.app-mergeDebugResources-55:\\layout\\activity_photo.xml",
+        "source": "C:\\Users\\Islam\\.gradle\\daemon\\7.4\\fr.univ_reims.informatique.islam.shareit.app-main-58:\\layout\\activity_photo.xml"
+    },
+    {
+        "merged": "C:\\Users\\Islam\\.gradle\\daemon\\7.4\\fr.univ_reims.informatique.islam.shareit.app-mergeDebugResources-55:\\layout\\fragment_accueil.xml",
+        "source": "C:\\Users\\Islam\\.gradle\\daemon\\7.4\\fr.univ_reims.informatique.islam.shareit.app-main-58:\\layout\\fragment_accueil.xml"
+    }
+]

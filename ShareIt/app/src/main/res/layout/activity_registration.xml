@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".vue.activity.RegistrationActivity"
+    android:background="#18534F">
+
+    <TextView
+        android:id="@+id/nameAppTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="cursive"
+        android:text="@string/app_name"
+        android:textColor="@color/white"
+        android:textSize="48sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.023" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/registrationCardView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="#226D68"
+        app:cardCornerRadius="25sp"
+        app:cardElevation="50sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:id="@+id/registrationLinearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/registrationLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:gravity="center"
+                android:text="@string/registration"
+                android:textColor="@color/white"
+                android:textSize="35sp"/>
+
+            <TextView
+                android:id="@+id/informationsRegistrationTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="15dp"
+                android:layout_marginStart="10dp"
+                android:text="@string/information_registration"
+                android:textColor="@color/light_beige_share_it"
+                android:textSize="16sp" />
+            <TextView
+                android:id="@+id/erreurRegistrationTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:text="@string/error"
+                android:textColor="#ff0000"
+                android:textSize="20sp"
+                android:gravity="center"
+                android:visibility="gone" />
+            <ScrollView
+                android:id="@+id/registrationScrollView"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:padding="15sp"
+                android:scrollbarSize="5sp">
+                <LinearLayout
+                    android:id="@+id/registrationScrollViewLinearLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <!--Nom de l'utilisateur-->
+                    <TextView
+                        android:id="@+id/nomRegistrationTextView"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="20dp"
+                        android:text="@string/registrationLastName"
+                        android:textColor="@color/white_share_it"
+                        android:textSize="16sp" />
+
+                    <EditText
+                        android:id="@+id/nomRegistrationEditText"
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginRight="10dp"
+                        android:autofillHints="name"
+                        android:background="@drawable/edit_text_background"
+                        android:hint="@string/Fill_in_the_last_name_field"
+                        android:inputType="text"
+                        android:padding="5dp"
+                        android:textColor="#D6955B"
+                        android:textColorHint="#B87940" />
+                    <!--Prenom de l'utilisateur-->
+                    <TextView
+                        android:id="@+id/prenomRegistrationTextView"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="30dp"
+                        android:text="@string/registrationFirstName"
+                        android:textColor="@color/white"
+                        android:textSize="16sp"/>
+
+                    <EditText
+                        android:id="@+id/prenomRegistrationEditText"
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginRight="10dp"
+                        android:autofillHints="name"
+                        android:background="@drawable/edit_text_background"
+                        android:hint="@string/Fill_in_the_fisrt_name_field"
+                        android:inputType="textCapWords"
+                        android:padding="5dp"
+                        android:textColor="#D6955B"
+                        android:textColorHint="#B87940" />
+                    <!--
+                    <TextView
+                        android:id="@+id/dateRegistrationTextView"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="30dp"
+                        android:text="@string/date_of_birth"
+                        android:textColor="@color/white"
+                        android:textSize="16sp"/>
+
+                    <DatePicker
+                        android:id="@+id/dateRegistrationDatePicker"
+                        android:layout_width="wrap_content"
+                        android:layout_height="93dp"
+                        android:layout_gravity="center"
+                        android:animationCache="true"
+                        android:background="#226D68"
+                        android:backgroundTint="#226D68"
+                        android:calendarTextColor="#D6955B"
+                        android:calendarViewShown="false"
+                        android:datePickerMode="spinner"
+                        android:descendantFocusability="afterDescendants"
+                        android:filterTouchesWhenObscured="true"
+                        android:fitsSystemWindows="true"
+                        android:scrollbarDefaultDelayBeforeFade="10"
+                        android:scrollbarFadeDuration="5"
+                        android:scrollbarSize="20dp" />
+                        -->
+                    <!--email de l'utilisateur-->
+                    <TextView
+                        android:id="@+id/emailTextView"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="30dp"
+                        android:text="@string/registrationEmail"
+                        android:textColor="@color/white"
+                        android:textSize="16sp"/>
+
+                    <EditText
+                        android:id="@+id/emailEditText"
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginRight="10dp"
+                        android:autofillHints="name"
+                        android:background="@drawable/edit_text_background"
+                        android:hint="@string/Fill_in_the_mail_field"
+                        android:inputType="textEmailAddress"
+                        android:padding="5dp"
+                        android:textColor="#D6955B"
+                        android:textColorHint="#B87940" />
+                    <!--pseudo de l'utilisateur-->
+                    <TextView
+                        android:id="@+id/usernameRegistrationTextView"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="30dp"
+                        android:text="@string/username_registration"
+                        android:textColor="@color/white"
+                        android:textSize="16sp" />
+                    <EditText
+                        android:id="@+id/usernameRegistrationEditText"
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginRight="10dp"
+                        android:autofillHints="username"
+                        android:background="@drawable/edit_text_background"
+                        android:hint="@string/Fill_in_the_username_field_registration"
+                        android:inputType="text"
+                        android:textColor="@color/black"
+                        android:padding="5dp"
+                        android:textColorHint="#B87940"/>
+                    <!--mot de passe de l'utilisateur-->
+                    <TextView
+                        android:id="@+id/passwordRegistrationTextView"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="30dp"
+                        android:text="@string/password_registration"
+                        android:textColor="@color/white_share_it"
+                        android:textSize="16sp"/>
+
+                    <EditText
+                        android:id="@+id/password_EditText"
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginBottom="15dp"
+                        android:autofillHints="password"
+                        android:background="@drawable/edit_text_background"
+                        android:hint="@string/Fill_in_the_password_field_registration"
+                        android:inputType="textPassword"
+                        android:textColor="@color/black"
+                        android:padding="5dp"
+                        android:textColorHint="#B87940"/>
+
+                    <TextView
+                        android:id="@+id/checkpasswordRegistrationTextView"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="20dp"
+                        android:text="Verification du mot de passe : "
+                        android:textColor="@color/white_share_it"
+                        android:textSize="16sp"/>
+
+                    <EditText
+                        android:id="@+id/checkpasswordRegistrationEditText"
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginBottom="15dp"
+                        android:autofillHints="password"
+                        android:background="@drawable/edit_text_background"
+                        android:hint="Veuillez saisir une seconde fois le mdp"
+                        android:inputType="textPassword"
+                        android:textColor="@color/beige_share_it"
+                        android:padding="5dp"
+                        android:textColorHint="#B87940"/>
+
+                    <CheckBox
+                        android:id="@+id/inscriptionMotDePasseCheckBox"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:text="@string/connexion_password_checkbox"
+                        android:textColor="@color/white"
+                        android:textSize="16sp"/>
+                </LinearLayout>
+            </ScrollView>
+            <TextView
+                android:id="@+id/lienVersLaPageConnexionTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:gravity="center"
+                android:text="@string/link_connexion"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:textStyle="italic" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/registrationButton"
+                    android:layout_width="150dp"
+                    android:layout_height="60dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="20dp"
+                    android:backgroundTint="#D6955B"
+                    android:text="@string/registration_button"
+                    android:textColor="#263238"
+                    android:textSize="14sp" />
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/author"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.96" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

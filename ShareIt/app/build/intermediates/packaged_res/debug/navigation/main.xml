@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    app:startDestination="@+id/home">
+
+    <fragment
+        android:id="@+id/home"
+        android:name="fr.univ_reims.informatique.islam.shareit.vue.fragment.AccueilFragment"
+        android:label="Accueil"
+        tools:layout="@layout/fragment_accueil" />
+    <fragment
+        android:id="@+id/menuProfile"
+        android:name="fr.univ_reims.informatique.islam.shareit.vue.fragment.ProfileFragment"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" />
+    <fragment
+        android:id="@+id/menuContact_us"
+        android:name="fr.univ_reims.informatique.islam.shareit.vue.fragment.NousContacterFragment"
+        android:label="fragment_nous_contacter"
+        tools:layout="@layout/fragment_nous_contacter" />
+    <fragment
+        android:id="@+id/media"
+        android:name="fr.univ_reims.informatique.islam.shareit.vue.fragment.MediaFragment"
+        android:label="fragment_media"
+        tools:layout="@layout/fragment_media" />
+    <fragment
+        android:id="@+id/message"
+        android:name="fr.univ_reims.informatique.islam.shareit.vue.fragment.MessageFragment"
+        android:label="fragment_message"
+        tools:layout="@layout/fragment_message" />
+    <fragment
+        android:id="@+id/contact"
+        android:name="fr.univ_reims.informatique.islam.shareit.vue.fragment.ContactFragment"
+        android:label="fragment_contact"
+        tools:layout="@layout/fragment_contact" />
+
+
+</navigation>

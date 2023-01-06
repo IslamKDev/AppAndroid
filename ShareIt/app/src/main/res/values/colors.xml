@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <!--Color pour l'application-->
+    <color name="green_share_it">#18534F</color>
+    <color name="light_green_share_it">#226D68</color>
+    <color name="white_share_it">#ECF8F6</color>
+    <color name="light_beige_share_it">#FEEAA1</color>
+    <color name="beige_share_it">#D6955B</color>
+    <color name="orange">#F95503</color>
+
+</resources>

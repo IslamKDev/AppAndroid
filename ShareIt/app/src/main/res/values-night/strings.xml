@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" translatable="false">ShareIt</string>
+    <string name="connexion" formatted="true" translatable="true">Connexion</string>
+    <string name="error" translatable="true">Erreur</string>
+    <string name="connect" translatable="true">Se Connecter</string>
+    <string name="link_registration" translatable="true"><u>Vous n\'avez pas de compte ? Inscrivez-vous</u></string>
+    <string name="author" translatable="true">Create by islam :)</string>
+    <string name="Fill_in_the_password_field" translatable="true">Veuillez saisir votre mot de passe</string>
+    <string name="Fill_in_the_username_field" translatable="true">Veuillez saisir votre nom d\'utilisateur</string>
+    <string name="Fill_in_the_information_to_connect" translatable="true">Remplire ces informations pour vous connecter</string>
+    <string name="registration" translatable="true">Inscription</string>
+    <string name="information_registration" translatable="true">Completez les information pour vous inscrire :</string>
+    <string name="registrationLastName" translatable="true">Nom :</string>
+    <string name="registrationFirstName" translatable="true">Prenom :</string>
+    <string name="Fill_in_the_last_name_field" translatable="true">veuillez saisir votre nom</string>
+    <string name="Fill_in_the_fisrt_name_field" translatable="true">veuillez saisir votre prenom</string>
+    <string name="date_of_birth" translatable="true">Date de naissance :</string>
+    <string name="username_registration" translatable="true">Nom d\'utilisateur :</string>
+    <string name="password_registration" translatable="true">Mot de passe:</string>
+    <string name="Fill_in_the_username_field_registration" translatable="true">veuillez saisir votre nom d\'utilisateur</string>
+    <string name="Fill_in_the_password_field_registration" translatable="true">veuillez saisir votre mot de passe</string>
+    <string name="registration_button" translatable="true">s\'inscrire</string>
+    <string name="connexion_password_checkbox" translatable="true">Afficher le mot de passe en clair</string>
+    <string name="logo" translatable="true">logo</string>
+    <string name="loading" translatable="true">Chargement …</string>
+    <string name="link_connexion" translatable="true"><u>Vous avez deja un compte ? Connectez-vous</u></string>
+    <string name="registrationMail" translatable="true">Mail :</string>
+    <string name="Fill_in_the_mail_field" translatable="true">Veuillez saisir votre adresse Mail</string>
+    <string name="registrationEmail" translatable="true">Email :</string>
+    <string name="accueil">Accueil</string>
+    <string name="media">Media</string>
+    <string name="recherche">recherche</string>
+    <string name="contact">contact</string>
+    <string name="message">message</string>
+    <string name="prendre_une_photo">Prendre une photo</string>
+</resources>
